@@ -1,0 +1,219 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background: #0055a5;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin:0 15px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+}
+form{
+    background: white;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+input, textarea, select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+button{
+    background: #003366;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    curson:pointer;
+}
+footer{
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+.logo{
+    width:100px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.image-accueil{
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.image-accueil{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.image-accueil:hover{
+    transform: scale(1.1);
+}
+.image-accueil{
+    width: 80%;
+    display: block;
+    margin: auto;
+    animation: zoom 3s infinite alternate;
+}
+@keyframes zoom{
+    form{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+.image-accueil{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.galerie{
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+.galerie{
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+.images{
+    text-align: center;
+}
+
+.galerie{
+    transition: 0.5s;
+}
+.images{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.galerie{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    animation: defilement 8s linear infinite;
+}
+@keyframes defilement{
+    form{
+        transform: translate(-200px);
+    }
+    to{
+        transform: translate(100vw);
+    }
+}
+h1{
+    animation: apparition 2s ease-in-out;
+}
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translate(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+button{
+    background: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background: red;
+    transform:scale(1.1);
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    background: aquamarine;
+    color: coral;
+    border-radius: 5px;
+}
+.titre-anime{
+    animation: entreeTitre 3s ease-in-out;
+}
+@keyframes entreeTitre{
+    from{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.titre-anime{
+    animation: couleur 3s infinite;
+}
+@keyframes couleur{
+    0%{color: blue;}
+    50%{color: red;}
+    100%{color: green;}
+}
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th , td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background: #0066cc;
+    color: white;
+}

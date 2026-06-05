@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <h1>Réservation d'ordinateur</h1>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="clients.html">clients</a></li>
+        <li><a href="reservation.html">Réservation</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul>
+   </nav>
+   <form>
+    <label>Nom du client</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label>Date</label>
+    <input type="date" id="date" name="date" required>
+
+    <label>Heure</label>
+    <input type="time" id="heure" name="heure" required>
+    <label>Durée</label>
+    <select>
+        <option>1 Heure</option>
+        <option>2 Heures</option>
+        <option>3 Heures</option>
+        <option>4 Heures</option>
+    </select>
+
+    <button type="submit">Réserver</button>
+   </form>
+   <h2>liste des Réservations</h2>
+   <table>
+    <tr>
+        <th>client</th>
+        <th>Date</th>
+        <th>Heure</th>
+        <th>Durée</th>
+    </tr>
+    <tr>
+        <td>Eddy</td>
+        <td>05/06/2026</td>
+        <td>10:00</td>
+        <td>2 heures</td>
+    </tr>
+    <tr>
+        <td>Gretta</td>
+        <td>06/06/2026</td>
+        <td>11:00</td>
+        <td>3 heures</td>
+    </tr>
+    <tr>
+        <td>Laurence</td>
+        <td>07/06/2026</td>
+        <td>12:00</td>
+        <td>4 heures</td>
+    </tr>
+   </table>
+   <footer>
+    <p>&copy; 2026 Gestion cybercafé</p>
+   </footer>
+</body>
+</html>
